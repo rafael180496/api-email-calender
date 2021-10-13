@@ -1,0 +1,34 @@
+{
+  "name": "api-email-calender",
+  "version": "1.0.0",
+  "description": "send email event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/rafael180496/api-email-calender.git"
+  },
+  "author": "rhidalgo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafael180496/api-email-calender/issues"
+  },
+  "homepage": "https://github.com/rafael180496/api-email-calender#readme",
+  "dependencies": {
+    "ajv": "^8.6.3",
+    "ajv-formats": "^2.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ics": "^2.31.0",
+    "node-fetch": "^2.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
